@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+#shopping-container {
+    width: 330px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#text-container {
+    padding: 20px;
+}
+
+#shopping-container button {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 0;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+#main-img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+#plan {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#plan span {
+    display: block;
+}
+
